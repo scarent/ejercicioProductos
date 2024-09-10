@@ -18,58 +18,58 @@ def renderMenu(request, Categoria,producto1,producto2,producto3):
 def renderJuguetes(request):
     datos={"Categoria":"Juguetes",
            "Producto1":"Rayo mcqueen",
-           "Descripcion1":"Auto rayo",
+           "Descripcion1":"Auto Rayo Mcqueen",
            "img1":"rayo.jpg",
            "Precio1":"5000",
 
            "Producto2":"Paw patrol",
-           "img2":"pawpatrol.png",
+           "img2":"patrol.png",
            "Descripcion2":"Peluche paw patrol",
-           "Precio2":"15.000",
+           "Precio2":"12.000",
 
            "Producto3":"Figura dinosaurio",
            "img3":"dino.png",
-           "Descripcion3":"Dinosaurio",
-           "Precio3":"12.000"}
+           "Descripcion3":"Dinosaurio Jurassic park",
+           "Precio3":"10.000"}
     
     return render(request,'appTemplates/tienda.html',datos)
 
 def renderElectronica(request):
     datos={"Categoria":"Electronica",
-           "Producto1":"Television",
-           "Descripcion1":"tv 50 pulgadas",
+           "Producto1":"Television LG",
+           "Descripcion1":"TV 68 Pulgadas",
            "img1":"tv.png",
-           "Precio1":"400.000",
+           "Precio1":"450.000",
 
-           "Producto2":"Mouse",
+           "Producto2":"Mouse Gamer",
            "img2":"mouse.png",
            "Descripcion2":"Mouse logitech",
            "Precio2":"60.000",
 
            "Producto3":"Teclado rgb",
            "img3":"teclado.png",
-           "Descripcion3":"teclado mecanico ",
+           "Descripcion3":"Teclado Mecanico ",
            "Precio3":"40.000"}
     
-    return render(request,'appTemplates/index.html',datos)
+    return render(request,'appTemplates/tienda.html',datos)
 
 def renderRopa(request):
     datos={"Categoria":"Ropa",
            "Producto1":"Jeans",
            "Descripcion1":"Pantalon jeans ",
-           "img1":"jines.jpg",
-           "Precio1":"20.000",
+           "img1":"YINES.png",
+           "Precio1":"25.990",
 
            "Producto2":"Zapatilla",
            "img2":"tilla.png",
            "Descripcion2":"zapatillas converse",
-           "Precio2":"40.000",
+           "Precio2":"35.000",
 
            "Producto3":"Polera",
            "img3":"polera.png",
-           "Descripcion3":"Polera hugo boss",
+           "Descripcion3":"Polera Hugo Boss Hombre",
            "Precio3":"15.000"}
     
-    return render(request,'appTemplates/index.html',datos)
+    return render(request,'appTemplates/tienda.html',datos)
     
     

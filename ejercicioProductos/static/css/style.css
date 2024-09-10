@@ -3,7 +3,7 @@ body{
 }
 
 #Banner{
-    background-color: rgba(145, 241, 241, 0.788);
+    background-color: aqua;
     margin-top: 30px;
     margin-bottom: 30px;
     height: 100px;
@@ -14,11 +14,11 @@ body{
 
 #Banner #Titulo{
     font-size: 80px;
-    color: rgb(4, 63, 63);;
+    color: black;
 }
 
 #foto{
-    max-width: 100px;
-    margin-left: 300px;
+    max-width: 195px;
+    margin-left: 240px;
     
 }
