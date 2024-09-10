@@ -1,0 +1,60 @@
+body{
+    background: black;
+}
+
+#Banner{
+    background-color: rgba(145, 241, 241, 0.788);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+
+}
+
+#Banner #Titulo{
+    font-size: 80px;
+    color: rgb(4, 63, 63);;
+}
+
+#foto{
+    max-width: 100px;
+    margin-left: 300px;
+    
+}
+
+#Productos{
+
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#Productos img {
+    height: 250px;
+    width: 250px;
+    margin: auto;
+}
+#Productos .card{
+    margin: auto;
+    background-color: rgb(105, 167, 105);
+    width: 300px;
+    padding: 15px;
+
+}
+#CategoriaBanner{
+    background-color: rgba(168, 167, 167, 0.788);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 120px;
+    padding-left: 20px;
+    align-items: center;
+    text-align: left;
+}
+
+#CategoriaBanner #Categoria{
+    margin-top: 20px;
+    font-size: 60px;
+    color: rgb(0, 0, 0);;
+}
