@@ -37,18 +37,15 @@ def renderJuguetes(request):
 def renderElectronica(request):
     datos={"Categoria":"Electronica",
            "Producto1":"Television LG",
-           "Descripcion1":"TV 68 Pulgadas",
            "img1":"tv.png",
            "Precio1":"450.000",
 
            "Producto2":"Mouse Gamer",
            "img2":"mouse.png",
-           "Descripcion2":"Mouse logitech",
            "Precio2":"60.000",
 
            "Producto3":"Teclado rgb",
            "img3":"teclado.png",
-           "Descripcion3":"Teclado Mecanico ",
            "Precio3":"40.000"}
     
     return render(request,'appTemplates/tienda.html',datos)
@@ -56,18 +53,15 @@ def renderElectronica(request):
 def renderRopa(request):
     datos={"Categoria":"Ropa",
            "Producto1":"Jeans",
-           "Descripcion1":"Pantalon jeans ",
            "img1":"YINES.png",
            "Precio1":"25.990",
 
            "Producto2":"Zapatilla",
            "img2":"tilla.png",
-           "Descripcion2":"zapatillas converse",
            "Precio2":"35.000",
 
            "Producto3":"Polera",
            "img3":"polera.png",
-           "Descripcion3":"Polera Hugo Boss Hombre",
            "Precio3":"15.000"}
     
     return render(request,'appTemplates/tienda.html',datos)
